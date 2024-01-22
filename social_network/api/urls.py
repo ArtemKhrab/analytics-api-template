@@ -17,7 +17,7 @@ from django.urls import path
 urlpatterns = [
     path("v1/users/", UserView.as_view()),
     path("v1/user/activity", UserActivityView.as_view()),
-    path("v1/user/analytics/", LikesAnalyticsView.as_view()),
+    path("v1/analytics/", LikesAnalyticsView.as_view()),
     path("v1/login/", LoginView.as_view()),
     path("v1/register/", RegisterView.as_view()),
     path("v1/post/", PostView.as_view()),
